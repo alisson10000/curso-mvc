@@ -1,0 +1,24 @@
+{
+    "name": "fsncursosonline/cursomvc",
+    "description": "curso de mvc com composer",
+    "license": "proprietery",
+    "autoload": {
+        "psr-4": {
+            "app\\":"app/",
+            "core\\":"core"
+        },
+        "files":[
+            "config/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Alisson L.",
+            "email": "alisson.lima.souza@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php":">=7.2"
+    }
+}
